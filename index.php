@@ -20,10 +20,48 @@
                 while ($row = $result->fetch_assoc()) {
                     echo $row['advisor_first']."<br>";
                 }
-                
+                echo ' <table>
+                <tr>
+                  <th>Appointment Time</th>
+                  <th>Student Name</th>
+                  <th>Advisor Name</th>
+                </tr>
+                <tr>
+                  <td>7pm-8pm  10/10/2018</td>
+                  <td>Ashton</td>
+                  <td>Dr.Raymond</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </table>';        
               
             }
          ?>
+
+        
         </div>
  </section>
  
